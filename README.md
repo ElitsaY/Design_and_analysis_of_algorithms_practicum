@@ -1,1 +1,1 @@
-# Design-and-nalysis-of-lgorithms---practicum
+Design and analysis of algorithms - practicum
