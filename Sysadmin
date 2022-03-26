@@ -1,0 +1,53 @@
+#include<iostream>
+using namespace std;
+
+int n, k;
+int c[100050];
+
+bool OK(int x)
+{
+	unsigned int sum = 0;
+	for(int i = 0; i < n; i++)
+	{
+		sum = sum + c[i]/x;
+	//	if(sum >= k) return true; 
+	}
+	if(sum >= k) return true;
+	return false;
+}
+
+
+int main()
+{
+	scanf("%d%d", &n, &k);
+	int maxLen = 0;
+	for(int i = 0; i < n; i++)
+	{
+		scanf("%d",&c[i]);
+		maxLen = max(maxLen, c[i]);
+	}
+	
+	//slow  
+	/*for(int len = 1; len < n; len++)
+	{
+		if(OK(len) == false) 
+		{
+			printf("%d\n",len-1);
+			break;
+		}
+	}*/
+	//fast
+	int l = 1, r = maxLen;
+	int mid, ans = 0;
+	while(l <= r)
+	{
+		mid = (l + r) / 2;
+		if(OK(mid) == true) 
+		{
+			ans = mid;
+			l = mid + 1;
+		}
+		else r = mid -1;
+	}
+	printf("%d\n", ans);
+}
