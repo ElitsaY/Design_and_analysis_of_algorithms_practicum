@@ -3,6 +3,7 @@
 
 // We need this array for our merge algorithm to be O(n) time complexity
 int merged[7];
+int inversions;
 
 void merge(int array[], int start, int mid, int end)
 {
@@ -17,6 +18,8 @@ void merge(int array[], int start, int mid, int end)
         else
         {
             merged[index++] = array[j++];
+            // Add number of elements remaining in the left array
+            inversions += (mid - i + 1);
         }
     }
 
@@ -50,8 +53,8 @@ void mergeSort(int array[], int start, int end)
 
 int main()
 {
-    int arr[] = { 2, 3, 6, 5, 12, 1, 8 };
-    int n = 7;
+    int arr[] = { 7, 1, 3, 2, 8, 5 };
+    int n = 6;
 
     mergeSort(arr, 0, n-1);
 
@@ -59,7 +62,7 @@ int main()
     {
         printf("%d ", arr[i]);
     }
-    printf("\n");
+    printf("\nInversions: %d\n", inversions);
 
     return 0;
 }
