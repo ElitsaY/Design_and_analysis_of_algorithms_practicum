@@ -31,13 +31,13 @@ int HoarePartition(int arr[], int start, int end)
 int LomutoPartition(int arr[], int start, int end)
 {
     int pivot = arr[end]; // Optionally generate random index to choose element at random then swap it with end element
-    int i = start - 1;  // Index of last smaller element
+    int i = start - 1;  // Index of last smaller or equal element
  
     for (int j = start; j < end; j++)
     {
         if (arr[j] <= pivot)
         {
-            i++; // increment index of smaller element
+            i++; // increment index of smaller or equal element
             std::swap(arr[i], arr[j]);
         }
     }
