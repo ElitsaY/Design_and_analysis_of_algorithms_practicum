@@ -8,6 +8,8 @@
 ## Задачи
 | Условие      | Трудност |
 | ----------- | ----------- |
+| [Бързо сортиране](https://judge.openfmi.net/practice/open_contest?contest_id=175) | Лесна |
+| [Perm swap](https://judge.openfmi.net/practice/open_contest?contest_id=175) | Лесна |
 | [Kth Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Средна |
 | [Celluar Network](https://codeforces.com/problemset/problem/702/C)      | Средна       |
 | [Casino](https://action.informatika.bg/problems/120)   | Средна        |
