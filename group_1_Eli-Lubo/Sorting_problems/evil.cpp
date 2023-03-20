@@ -8,15 +8,15 @@
 #include <cstdio>
 #include <algorithm>
 
-
+// Note that by using bit fields we cut the memory by half
 struct Point
 {
-    int val;
-    bool start;
+    unsigned int val : 31; // 31 bits
+    unsigned int isStart : 1; // 1 bit
 
     bool operator <(const Point &other)
     {
-        return val < other.val || (val == other.val && start);
+        return val < other.val || (val == other.val && isStart);
     }
 };
 
@@ -30,15 +30,15 @@ int main()
     for (int i = 0; i < m; ++i)
     {
         scanf("%d%d", &from, &to);
-        arr[i] = {from, true};
-        arr[m+i] = {to, false};
+        arr[i] = {(unsigned int)from, 1};
+        arr[m+i] = {(unsigned int)to, 0};
     }
     std::sort(arr, arr + 2*m);
 
     int starts = 0, ends = 0, res = 0, start;
     for (int i = 0; i < 2*m; ++i)
     {
-        if (arr[i].start)
+        if (arr[i].isStart)
         {
             if (starts == ends)
             {
