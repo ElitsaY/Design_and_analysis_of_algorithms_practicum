@@ -1,6 +1,6 @@
 | Задача      | Трудност |
 | ----------- | ----------- |
-| [rect](https://arena.olimpiici.com/#/catalog/250/problem/100706)      | Трудна       |
+| [rect](https://arena.olimpiici.com/#/catalog/250/problem/100706)      |  Много трудна       |
 | [lines](https://arena.olimpiici.com/#/catalog/18/problem/100020)   | Лесна        |
 | [points](https://arena.olimpiici.com/#/catalog/126/problem/100294) | Лесна |
 | [films](https://arena.olimpiici.com/#/catalog/144/problem/100337) | Средна |
