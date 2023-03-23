@@ -8,3 +8,6 @@
 | [Three Parts of the Array](https://codeforces.com/contest/1006/problem/C) | Трудна |
 | [Stories](https://action.informatika.bg/problems/105?fbclid=IwAR26DrDpFdpB7eZqHgqrfx1cKiKvF7RBt_MFh7RTeV71q02bkg3-sKUHQV8) | Трудна |
 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Трудна |
+| [Longest k-Good Segment](https://codeforces.com/contest/616/problem/D) | Средна |
+| [hayfeast](http://www.usaco.org/index.php?page=viewproblem2&cpid=767) | Средна |
+
