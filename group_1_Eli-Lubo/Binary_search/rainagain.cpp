@@ -54,12 +54,12 @@ int main()
         int oldEnd = buckets[bucketIdx].end;
         buckets[bucketIdx].expand(first);
 
-        int changeCur = oldStart == MAX_NUM || oldEnd == MIN_NUM, changePrev = 0, changeNext = 0;
-        if (bucketIdx)
+        int changePrev = 0, changeNext = 0;
+        if (bucketIdx) // Check if we have prev element
         {
             changePrev = oldStart - buckets[bucketIdx-1].end > interval && buckets[bucketIdx].start - buckets[bucketIdx-1].end <= interval;
         }
-        if (bucketIdx + 1 < bucketsCnt)
+        if (bucketIdx + 1 < bucketsCnt) // Check if we have next element
         {
             changeNext = buckets[bucketIdx+1].start - oldEnd > interval && buckets[bucketIdx+1].start - buckets[bucketIdx].end <= interval;
         }
