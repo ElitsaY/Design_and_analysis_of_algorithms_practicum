@@ -10,4 +10,5 @@
 | [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Трудна |
 | [Longest k-Good Segment](https://codeforces.com/contest/616/problem/D) | Средна |
 | [hayfeast](http://www.usaco.org/index.php?page=viewproblem2&cpid=767) | Средна |
+| [seg](https://arena.olimpiici.com/#/catalog/126/problem/100293) | Средна |
 
