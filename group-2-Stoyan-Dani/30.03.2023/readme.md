@@ -7,3 +7,5 @@
 | [Motherboard](https://action.informatika.bg/problems/185?fbclid=IwAR0YH380CGt8CCFKp8DQR_6M6IoSpA_prwGP9evhdrCoULXgBIelakz_Lhc) | Трудна |
 | [Space rescuers](https://codeforces.com/contest/106/problem/E) | Средна |
 | [Closest Distance](https://lightoj.com/problem/closest-distance) | Средна |
+| [Weakness and Poorness](https://codeforces.com/problemset/problem/578/C) | Трудна |
+
