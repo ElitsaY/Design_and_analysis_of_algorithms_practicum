@@ -9,3 +9,5 @@
 | [Closest Distance](https://lightoj.com/problem/closest-distance) | Средна |
 | [Weakness and Poorness](https://codeforces.com/problemset/problem/578/C) | Трудна |
 
+
+[California Informatics Competition (CALICO) Spring '23](https://codeforces.com/blog/entry/114432)
