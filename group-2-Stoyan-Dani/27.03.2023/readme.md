@@ -10,3 +10,4 @@
 | [Алкохолици](https://judge.openfmi.net/practice/open_contest?contest_id=176) | Трудна |
 | [Shoe shopping](https://action.informatika.bg/problems/28) | Трудна |
 | [Peter and Snow Blower](https://codeforces.com/problemset/problem/613/A) | Геометрия |
+| [Books](https://codeforces.com/contest/279/problem/B) | Средна |
