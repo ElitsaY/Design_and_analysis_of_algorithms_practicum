@@ -13,6 +13,7 @@
 | [Queue](https://codeforces.com/contest/141/problem/C) | Трудна |
 | [The Union of k-Segments](https://codeforces.com/contest/612/problem/D) | Средна |
 | [Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/description/) | Средна |
+| [Reducing Dishes](https://leetcode.com/problems/reducing-dishes/) | Средна |
 
 [[Tutorial] Matroid intersection in simple words](https://codeforces.com/blog/entry/69287)
 
