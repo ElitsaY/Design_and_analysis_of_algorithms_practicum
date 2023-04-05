@@ -12,3 +12,8 @@
 | [Pokémon Evolution](https://csacademy.com/contest/archive/task/pokemon-evolution/?fbclid=IwAR3h3w8HB8oiFAPIIDZc6HkrlKGmI82tBSiebgaxmkGl9nPwX6ipLgHnLXY) | Средна |
 | [Queue](https://codeforces.com/contest/141/problem/C) | Трудна |
 | [The Union of k-Segments](https://codeforces.com/contest/612/problem/D) | Средна |
+| [Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/description/) | Средна |
+
+[[Tutorial] Matroid intersection in simple words](https://codeforces.com/blog/entry/69287)
+
+[ICPC 2023 Online Spring Challenge powered by Huawei](https://codeforces.com/blog/entry/112838)
