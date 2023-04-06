@@ -1,7 +1,7 @@
 /**
  * @author Lyuben Georgiev
- * @brief Problem: https://judge.openfmi.net/practice/get_problem_description?contest_id=198&problem_id=589&fbclid=IwAR0FJOtFx7Aa2XLtUb-_eXihWyJ6h__ndgALXIeqvoZSxndu3iayicHTlQ0
- * @date 30/03/2023
+ * @brief Problem Спасители на плажа: https://judge.openfmi.net/practice/open_contest?contest_id=153
+ * @date 06/04/2023
  * 
 */
 
