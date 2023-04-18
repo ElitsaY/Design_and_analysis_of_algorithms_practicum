@@ -14,6 +14,8 @@
 | [honest](https://arena.olimpiici.com/#/catalog/314/problem/100881) | Трудна |
 | [turnir](https://arena.olimpiici.com/#/catalog/85/problem/100190) | Трудна |
 | [Wormhole Sort](http://www.usaco.org/index.php?page=viewproblem2&cpid=992) | Трудна |
+| [Famous](https://action.informatika.bg/problems/147) | Трудна |
+| [ice](https://arena.olimpiici.com/#/catalog/355/problem/100984) | Трудна |
 
 [USACO Guide's DFS and BFS Tutorial](https://usaco.guide/silver/graph-traversal?lang=cpp)
 
