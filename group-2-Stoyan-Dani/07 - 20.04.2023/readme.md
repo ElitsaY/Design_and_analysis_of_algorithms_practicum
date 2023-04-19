@@ -16,6 +16,8 @@
 | [Wormhole Sort](http://www.usaco.org/index.php?page=viewproblem2&cpid=992) | Трудна |
 | [Famous](https://action.informatika.bg/problems/147) | Трудна |
 | [ice](https://arena.olimpiici.com/#/catalog/355/problem/100984) | Трудна |
+| [TOPSORT](https://www.spoj.com/problems/TOPOSORT/) | Много лесна |
+| [Fox And Names](https://codeforces.com/contest/510/problem/C) | Средна |
 
 [USACO Guide's DFS and BFS Tutorial](https://usaco.guide/silver/graph-traversal?lang=cpp)
 
