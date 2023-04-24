@@ -38,6 +38,9 @@ int main()
     }
 
     // Start dfs from SOURCE
+    dfs(SOURCE);
+    printf("\n");
+
     // Note if the graph is NOT connected you might need multiple calls to dfs to traverse the whole graph like:
     // for (int u = 1; u <= n; ++u)
     // {
@@ -46,9 +49,6 @@ int main()
     //         dfs(u);
     //     }
     // }
-    dfs(SOURCE);
-
-    printf("\n");
 
     return 0;
 }
