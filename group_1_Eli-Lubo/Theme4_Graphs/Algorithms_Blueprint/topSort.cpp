@@ -1,20 +1,19 @@
 #include <cstdio>
 #include <vector>
+#include <algorithm>
 
 
 const int MAX_VERTICES = 100000;
-const int SOURCE = 1;
 
 int n, m;
 std::vector<int> adjList[MAX_VERTICES + 1];
-bool visited[100000 + 1];
+bool visited[MAX_VERTICES + 1];
+std::vector<int> stack;
 
-
-void dfs(int u)
+void topSort(int u)
 {
     // Mark the current vertex as visited
     visited[u] = true;
-    printf("%d ", u); // Print the dfs traversal
 
     // Traverse all adjecent to U vertices
     for (int v : adjList[u])
@@ -22,9 +21,12 @@ void dfs(int u)
         // Go recursively in V if it is NOT visited
         if (!visited[v])
         {
-            dfs(v);
+            topSort(v);
         }
     }
+
+    // Add U on the stack
+    stack.push_back(u);
 }
 
 int main()
@@ -37,18 +39,30 @@ int main()
         adjList[from].push_back(to);
     }
 
-    // Start dfs from SOURCE
-    // Note if the graph is NOT connected you might need multiple calls to dfs to traverse the whole graph like:
-    // for (int u = 1; u <= n; ++u)
-    // {
-    //     if (!visited[u])
-    //     {
-    //         dfs(u);
-    //     }
-    // }
-    dfs(SOURCE);
+    for (int u = 1; u <= n; ++u)
+    {
+        if (!visited[u])
+        {
+            topSort(u);
+        }
+    }
 
+    // Reverse the stack
+    std::reverse(stack.begin(), stack.end());
+
+    // Print the topological sort
+    for (int u : stack)
+    {
+        printf("%d ", u);
+    }
     printf("\n");
 
     return 0;
 }
+/*
+4 4
+2 1
+3 1
+4 2
+4 3
+*/
