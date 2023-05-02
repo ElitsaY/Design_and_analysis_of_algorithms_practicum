@@ -13,6 +13,6 @@
 | [Mountain Time](https://csacademy.com/contest/archive/task/mountain-time) | Трудна |
 | [no112B](https://arena.olimpiici.com/#/catalog/174/problem/100414) | Лесна |
 | [speed](https://arena.olimpiici.com/#/catalog/356/problem/100986) | Средна |
-| [News Distribution](https://arena.olimpiici.com/#/catalog/356/problem/100986) | Средна |
+| [News Distribution]([https://arena.olimpiici.com/#/catalog/356/problem/100986](https://codeforces.com/contest/1167/problem/C) | Средна |
 
 
