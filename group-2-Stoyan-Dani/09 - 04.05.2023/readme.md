@@ -11,4 +11,8 @@
 | [Xor-MST](https://codeforces.com/contest/888/problem/G) | Много трудна |
 | [Moo network](http://usaco.org/index.php?page=viewproblem2&cpid=1211) | Трудна |
 | [Mountain Time](https://csacademy.com/contest/archive/task/mountain-time) | Трудна |
+| [no112B](https://arena.olimpiici.com/#/catalog/174/problem/100414) | Лесна |
+| [speed](https://arena.olimpiici.com/#/catalog/356/problem/100986) | Средна |
+| [News Distribution](https://arena.olimpiici.com/#/catalog/356/problem/100986) | Средна |
+
 
