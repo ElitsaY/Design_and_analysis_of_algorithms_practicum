@@ -14,5 +14,5 @@
 | [no112B](https://arena.olimpiici.com/#/catalog/174/problem/100414) | Лесна |
 | [speed](https://arena.olimpiici.com/#/catalog/356/problem/100986) | Средна |
 | [News Distribution](https://codeforces.com/contest/1167/problem/C) | Средна |
-| [Checksum](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068c2c3#analysis) | Много трудна |
+| [Checksum](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068c2c3#problem) | Много трудна |
 
