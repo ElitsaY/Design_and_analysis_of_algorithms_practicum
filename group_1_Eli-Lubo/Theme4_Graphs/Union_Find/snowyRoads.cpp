@@ -26,9 +26,13 @@ int root(int u)
 void join(int u, int v)
 {
     if (size[v] > size[u])
+    {
         std::swap(u, v);
+    }
     else if (size[v] == size[u])
+    {
         ++size[u];
+    }
     parent[v] = parent[u];
 }
 
