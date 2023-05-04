@@ -3,7 +3,7 @@
 #include <queue>
 #include <vector>
 
-#define INF 1000000000
+const int INF = 1000000000;
 
 using Pair = std::pair<int, int>;
 
