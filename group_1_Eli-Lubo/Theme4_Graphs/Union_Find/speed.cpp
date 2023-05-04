@@ -25,27 +25,30 @@ struct Edge
 int n, m;
 Edge edges[10001];
 int parent[1001];
-int size[1001];
+int height[1001];
 
-int root(int u)
+int root(int node)
 {
-    while (u != parent[u])
+    int rootNode = node;
+    while (rootNode != parent[rootNode])
     {
-        u = parent[u];
+        rootNode = parent[rootNode];
     }
+    
+    parent[node] = rootNode;
 
-    return u;
+    return rootNode;
 }
 
 void join(int u, int v)
 {
-    if (size[v] > size[u])
+    if (height[v] > height[u])
     {
         std::swap(u, v);
     }
-    else if (size[v] == size[u])
+    else if (height[v] == height[u])
     {
-        ++size[u];
+        ++height[u];
     }
     parent[v] = parent[u];
 }
@@ -55,7 +58,7 @@ Edge solve(int mid)
     for (int i = 1; i <= n; ++i)
     {
         parent[i] = i;
-        size[i] = 0;
+        height[i] = 0;
     }
 
     int low = edges[mid].w;

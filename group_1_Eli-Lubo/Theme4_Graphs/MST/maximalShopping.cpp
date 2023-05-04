@@ -1,6 +1,6 @@
 /**
  * @author Lyuben Georgiev
- * @brief Problem: https://action.informatika.bg/problems/115
+ * @brief Problem: https://action.informatika.bg/problems/122
  * @date 10/05/2023
  * 
 */
