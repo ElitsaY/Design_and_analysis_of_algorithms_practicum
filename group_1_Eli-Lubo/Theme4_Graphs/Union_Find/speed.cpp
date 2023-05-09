@@ -27,20 +27,23 @@ Edge edges[10001];
 int parent[1001];
 int height[1001];
 
-int root(int node)
+void makeSet(int v)
 {
-    int rootNode = node;
-    while (rootNode != parent[rootNode])
-    {
-        rootNode = parent[rootNode];
-    }
-    
-    parent[node] = rootNode;
-
-    return rootNode;
+    parent[v] = v;
+    height[v] = 0;
 }
 
-void join(int u, int v)
+int findSet(int v)
+{
+    if (v == parent[v])
+    {
+        return v;
+    }
+
+    return parent[v] = findSet(parent[v]);
+}
+
+void unionSets(int u, int v)
 {
     if (height[v] > height[u])
     {
@@ -57,8 +60,7 @@ Edge solve(int mid)
 {
     for (int i = 1; i <= n; ++i)
     {
-        parent[i] = i;
-        height[i] = 0;
+        makeSet(i);
     }
 
     int low = edges[mid].w;
@@ -68,10 +70,10 @@ Edge solve(int mid)
     {
         const auto [u, v, w] = edges[i];
 
-        int ru = root(u), rv = root(v);
+        int ru = findSet(u), rv = findSet(v);
         if (ru != rv)
         {
-            join(ru, rv);
+            unionSets(ru, rv);
             --cnt;
             if (cnt == 1)
                 return {low, w, w - low};

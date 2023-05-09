@@ -11,27 +11,33 @@
 
 int n, m;
 int parent[100001];
-int size[100001];
+int height[100001];
 
-int root(int u)
+void makeSet(int v)
 {
-    while (u != parent[u])
-    {
-        u = parent[u];
-    }
-
-    return u;
+    parent[v] = v;
+    height[v] = 0;
 }
 
-void join(int u, int v)
+int findSet(int v)
 {
-    if (size[v] > size[u])
+    if (v == parent[v])
+    {
+        return v;
+    }
+
+    return parent[v] = findSet(parent[v]);
+}
+
+void unionSets(int u, int v)
+{
+    if (height[v] > height[u])
     {
         std::swap(u, v);
     }
-    else if (size[v] == size[u])
+    else if (height[v] == height[u])
     {
-        ++size[u];
+        ++height[u];
     }
     parent[v] = parent[u];
 }
@@ -56,10 +62,10 @@ int main()
         int u, v;
         scanf("%d %d", &u, &v);
         
-        int ru = root(u), rv = root(v);
+        int ru = findSet(u), rv = findSet(v);
         if (ru != rv)
         {
-            join(ru, rv);
+            unionSets(ru, rv);
             --n;
             if (n == 1)
             {
