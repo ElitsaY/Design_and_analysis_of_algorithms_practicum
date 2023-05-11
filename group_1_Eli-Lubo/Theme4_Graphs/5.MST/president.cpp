@@ -19,7 +19,8 @@ int n, m;
 long long k;
 Edge edges[1000001];
 int parent[1000001];
-int height[1000001];
+unsigned char height[1000001];
+
 
 void makeSets()
 {
@@ -65,7 +66,7 @@ int main()
         edges[i] = {a, b, c};
     }
 
-    std::sort(edges, edges + m, [](const Edge &e1, const Edge &e2){
+    std::sort(edges, edges + m, [](const Edge &e1, const Edge &e2) {
         return e1.weight < e2.weight;
     });
 
@@ -81,7 +82,7 @@ int main()
             total += edges[i].weight;
             if (total + components - 1LL <= k)
             {
-                res = components - 1;
+                --res;
             }
         }
     }
