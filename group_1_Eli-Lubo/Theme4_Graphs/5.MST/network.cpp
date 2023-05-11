@@ -1,7 +1,7 @@
 /**
  * @author Lyuben Georgiev
  * @brief Problem Мрежа: https://judge.openfmi.net/practice/open_contest?contest_id=55
- * @date 10/05/2023
+ * @date 04/05/2023
  * 
 */
 

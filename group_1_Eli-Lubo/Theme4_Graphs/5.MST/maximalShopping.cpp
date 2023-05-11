@@ -1,7 +1,7 @@
 /**
  * @author Lyuben Georgiev
  * @brief Problem: https://action.informatika.bg/problems/122
- * @date 10/05/2023
+ * @date 04/05/2023
  * 
 */
 
