@@ -48,6 +48,10 @@ int main()
         int u = pq.top().second;
         pq.pop();
 
+        if (visited[u])
+        {
+            continue;
+        }
         visited[u] = true;
 
         for (const Pair &p : adjList[u])
