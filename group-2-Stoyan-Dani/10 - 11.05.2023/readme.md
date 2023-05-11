@@ -10,3 +10,5 @@
 | [Pond](https://arena.olimpiici.com/#/catalog/393/problem/101074) | Средна |
 | [traffic](https://arena.olimpiici.com/#/catalog/199/problem/100477) | Лесна |
 | [lights](https://arena.olimpiici.com/#/catalog/756/problem/101958) | Средна | 
+| [internship](https://arena.olimpiici.com/#/catalog/431/problem/101171) | Трудна |
+
