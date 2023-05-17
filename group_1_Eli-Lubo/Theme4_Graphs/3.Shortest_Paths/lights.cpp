@@ -75,12 +75,6 @@ int main()
         }
     }
 
-    if (dist[n] == INF)
-    {
-        printf("-1\n");
-        return 0;
-    }
-
     for (int i = 2; i <= n; ++i)
     {
         printf("%lld ", dist[i]);
