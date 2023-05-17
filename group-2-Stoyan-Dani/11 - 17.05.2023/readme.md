@@ -8,3 +8,5 @@
 | [Possible sums](https://www.hackerearth.com/practice/algorithms/dynamic-programming/2-dimensional/practice-problems/algorithm/possible-sums-5/?purpose=login&source=problem-page&update=google) | Средна |
 | [Unique Paths 1](https://leetcode.com/problems/unique-paths/) | Средна |
 | [Unique Paths 2](https://leetcode.com/problems/unique-paths-ii/) | Средна |
+| [Minimum path sum](https://leetcode.com/problems/minimum-path-sum/) | Средна |
+
