@@ -8,15 +8,14 @@
 #include <cstdio>
 #include <vector>
 
-
 int n;
-char names[101][101];
+char ws[101][101];
 std::vector<char> adjList[256];
 bool visited[256];
 bool onPath[256];
+std::vector<char> s;
 
-
-bool topSort(char u, std::vector<char> &s)
+bool topSort(char u)
 {
     if (onPath[u])
         return true;
@@ -25,14 +24,14 @@ bool topSort(char u, std::vector<char> &s)
 
     for (char v : adjList[u])
     {
-        if (!visited[v] && topSort(v, s))
+        if (!visited[v] && topSort(v))
         {
             return true;
         }
     }
 
-    visited[u] = true;
     onPath[u] = false;
+    visited[u] = true;
 
     s.push_back(u);
 
@@ -44,36 +43,33 @@ int main()
     scanf("%d", &n);
     for (int i = 0; i < n; ++i)
     {
-        scanf("%s", &names[i][0]);
+        scanf("%s", &ws[i][0]);
     }
 
-    for (int i = 0; i < n; ++i)
+    for (int i = 1; i < n; ++i)
     {
-        for (int j = i + 1; j < n; ++j)
+        int idx = 0;
+        while (ws[i-1][idx] != '\0' && ws[i-1][idx] == ws[i][idx])
         {
-            int idx = 0;
-            while (names[i][idx] != '\0' && names[i][idx] == names[j][idx])
-            {
-                ++idx;
-            }
-            if (names[i][idx] != '\0' && names[j][idx] == '\0')
-            {
-                printf("Impossible\n");
+            ++idx;
+        }
 
-                return 0;
-            }
-            if (names[i][idx] != '\0')
-            {
-                adjList[names[i][idx]].push_back(names[j][idx]);
-                ++idx;
-            }
+        if (ws[i-1][idx] != '\0' && ws[i][idx] == '\0')// f t
+        {
+            printf("Impossible\n");
+
+            return 0;
+        }
+
+        if (ws[i-1][idx] != '\0')// f f
+        {
+            adjList[ws[i-1][idx]].push_back(ws[i][idx]);
         }
     }
 
-    std::vector<char> s;
     for (char c = 'a'; c <= 'z'; ++c)
     {
-        if (!visited[c] && topSort(c, s))
+        if (!visited[c] && topSort(c))
         {
             printf("Impossible\n");
 
