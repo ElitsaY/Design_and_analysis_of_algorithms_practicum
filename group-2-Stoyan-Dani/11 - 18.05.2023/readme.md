@@ -9,3 +9,5 @@
 | [Unique Paths 1](https://leetcode.com/problems/unique-paths/) | Средна |
 | [Unique Paths 2](https://leetcode.com/problems/unique-paths-ii/) | Средна |
 | [Minimum path sum](https://leetcode.com/problems/minimum-path-sum/) | Средна |
+
+[3. Square root optimization of knapsack/"3k trick"](https://codeforces.com/blog/entry/100910)
