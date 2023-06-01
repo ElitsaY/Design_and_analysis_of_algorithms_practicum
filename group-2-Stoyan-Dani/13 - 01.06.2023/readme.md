@@ -7,3 +7,4 @@
 | [game](https://arena.olimpiici.com/#/catalog/234/problem/100628) | Много трудна |
 | [Tree Matching](https://usaco.guide/gold/dp-trees?lang=cpp#solution---tree-matching) | Трудна |
 | [rod](https://arena.olimpiici.com/#/catalog/157/problem/100372) | Средна |
+| [Birthdays](https://arena.olimpiici.com/#/catalog/663/problem/101667) | Много много трудна |
