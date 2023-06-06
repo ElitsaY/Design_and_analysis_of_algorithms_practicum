@@ -65,7 +65,7 @@ double solve(int days, int peopleCnt)
 
 int main()
 {
-    n = 10;
+    n = 20;
 
     memset(memo1, -1, sizeof(memo1));
     memset(memo2, -1, sizeof(memo2));
