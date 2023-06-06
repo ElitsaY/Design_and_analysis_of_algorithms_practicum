@@ -1,4 +1,4 @@
-#Dynamic Programming
+# Dynamic Programming
 
 | Задача | Трудност |
 | ------ | ------ |
