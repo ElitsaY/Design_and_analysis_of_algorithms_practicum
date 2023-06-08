@@ -7,3 +7,4 @@
 | [Counting Tilings](https://cses.fi/problemset/task/2181) | Много трудна |
 | [next](https://arena.olimpiici.com/#/catalog/49/problem/100099) | Много трудна |
 | [divseq](https://arena.olimpiici.com/#/catalog/230/problem/100605) | Средна |
+| [Fibo Primes](https://action.informatika.bg/problems/85) | Много трудно |
