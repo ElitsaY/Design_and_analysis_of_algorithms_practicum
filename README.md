@@ -7,6 +7,7 @@
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
 ## Полезни ресурси за алгоритми и състезателно програмиране
+- [CLIST](https://clist.by/) - списък на всевъзможни онлайн състезания
 - [USACO Guide](https://usaco.guide/)
 - [cp-algorithms](https://cp-algorithms.com/)
 - [Codeforces](https://codeforces.com/) - може да погледнете EDU секцията
