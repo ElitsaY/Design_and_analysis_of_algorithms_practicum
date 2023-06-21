@@ -1,7 +1,7 @@
 # Бързи сортировки
 
 ## Съдържание
-- Quick sort [[1](https://github.com/ElitsaY/Design_and_analysis_of_algorithms_practicum/blob/main/group-2-Stoyan-Dani/16.03.2023/quick-sort.cpp) | [2](https://github.com/ElitsaY/Design_and_analysis_of_algorithms_practicum/blob/main/group-2-Stoyan-Dani/16.03.2023/quick-sort-in-place.cpp)]
+- Quick sort
 - Merge sort
 - Heap sort
 
